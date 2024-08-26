@@ -1,0 +1,15 @@
+.website-wrapper {
+  display: flex;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 250px;
+  background-color: var(--background-color);
+}
+.content {
+  width: 100%;
+  min-height: 100vh;
+}

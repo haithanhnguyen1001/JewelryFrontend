@@ -1,0 +1,32 @@
+
+.navbar {
+  position: fixed;
+  left: 0;
+  font-weight: 400;
+  font-size: 1.2rem;
+  height: 100%;
+  min-width: 200px;
+}
+
+.navbar > ul {
+  height: 100%;
+  margin-left: 20px;
+}
+
+.nav-item {
+  margin-top: 1.2rem;
+  border-radius: 8px;
+}
+
+.nav-item > a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 32px;
+}
+
+.nav-item:hover {
+  background-color: var(--medium-blue);
+  color: white;
+}

@@ -1,0 +1,42 @@
+:root {
+  --background-color: #fafafa;
+  --text-color: #212427;
+  --dark-blue: #0818a8;
+  --medium-blue: #6495ed;
+  --light-blue: #89cff0;
+  --panel-white: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  text-rendering: optimizeSpeed;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background-color: #212427;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+button {
+  cursor: pointer;
+}
